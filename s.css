@@ -1,0 +1,219 @@
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #eaeded; 
+}
+
+a {
+    text-decoration: none; 
+ 
+    color: white;
+}
+
+
+
+
+
+
+.header {
+    display: flex;
+
+    justify-content: space-between; 
+
+    align-items: center;
+    background-color: #131921; 
+    padding: 10px 20px;
+
+    color: white;
+
+}
+
+
+
+.search {
+    display: flex;
+    width: 50%; 
+}
+
+.searchbox {
+    flex-grow: 1; 
+    
+    padding: 8px;
+    
+    border: none;
+    border-radius: 4px 0 0 4px; 
+}
+
+.searchbutton {
+    background-color: #febd69; 
+    border: none;
+    
+    padding: 8px 15px;
+    
+    border-radius: 0 4px 4px 0; 
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.user {
+    display: flex;
+    gap: 15px; 
+}
+
+.menu {
+    display: flex;
+    gap: 15px;
+
+    background-color: #232f3e;
+    padding: 10px 20px;
+
+
+
+}
+
+.menu a {
+    font-size: 14px;
+
+
+}
+
+.content {
+    padding: 20px;
+
+
+}
+
+.pl {
+    background: linear-gradient(135deg, #007185 0%, #131921 100%);
+    color: white;
+    text-align: center;
+    padding: 40px 20px; 
+    border-radius: 4px;}
+.pl h2 {
+    color: #febd69; 
+}
+
+.pr {
+    display: flex;
+    
+    flex-wrap: wrap; 
+    justify-content: center; 
+    
+    gap: 20px;
+    
+    
+}
+
+.pc {
+    background-color: white;
+    width: 250px;
+    padding: 20px;
+    
+    border-radius: 8px;
+    
+    text-align: center;
+
+
+
+}
+
+.pc h3 {
+    font-size: 18px;
+    
+    margin: 10px 0;
+
+
+
+}
+
+.price {
+    font-size: 20px;
+    font-weight: bold;
+    color: #B12704;
+    
+    
+}
+
+
+.img {
+    background-color: #f7f7f7;
+
+    padding: 10px;
+    border-radius: 4px;
+    height: 180px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden; 
+}
+
+
+.img img {
+    max-width: 100%; 
+    max-height: 100%; 
+    object-fit: contain;
+}
+
+.add-to-cart-btn {
+    background-color: #ffd814; 
+    
+    border: none;   
+    padding: 10px 20px;
+    border-radius: 20px; 
+    
+    cursor: pointer;
+    width: 100%; 
+    font-weight: bold;
+}
+
+.bottom {
+    background-color: #232f3e;
+    color: white;   
+    text-align: center;
+ 
+    padding: 30px 20px;
+    margin-top: 40px;
+
+
+
+}
+
+.bottomlinks {
+    margin-bottom: 10px;
+    font-size: 14px;
+
+
+}
+
+.bottomthing {
+ 
+    font-size: 12px;
+    color: #ccc;
+
+
+}
+
+.pc {
+
+    transition: all 0.3s ease; 
+
+
+}
+
+.pc:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 15px rgba(0,0,0,0.2);
+
+    cursor: pointer;
+
+
+}
+
+.add-to-cart-btn:hover {
+    background-color: #f3a847;
+
+
+}
